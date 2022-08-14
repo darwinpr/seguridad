@@ -1,0 +1,97 @@
+
+.navbar {
+  box-shadow: 2px 2px 5px #000000;
+  opacity: 0.9;
+  background-color:#E4FBFF;
+}
+
+.navbar .nav-item .nav-link {
+  color: #000000;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.carrusel{
+  background-color: #B8B5FF;
+  margin:10px;
+}
+
+
+.m5{
+  background-color: #B8B5FF;
+}
+
+.main-header {
+  position: relative;
+  background: url(../img/background.jpg);
+  background-size: cover;
+  min-height 700px;
+}
+
+.background-overlay {
+  background: rgba(48, 51, 107,.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.form-control, .btn{
+  border-radius: 0;
+}
+
+.team{
+  background-color: #7868E6;
+}
+
+
+footer {
+  background: #EDEEF7;
+}
+
+/*carrusel*/
+
+/**************************************/
+/*login*/
+body#LoginForm{
+ /*background-image:url("https://hdwallsource.com/img/2014/9/blur-26347-27038-hd-wallpapers.jpg"); */
+ background-color: #E4FBFF;
+background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;
+}
+
+.wrapper {    
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.form-signin {
+  max-width: 420px;
+  padding: 30px 38px 66px;
+  margin: 0 auto;
+  background-color: #eee;
+  border: 3px dotted rgba(0,0,0,0.1);  
+  }
+
+.form-signin-heading {
+  text-align:center;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+
+input[type="text"] {
+  margin-bottom: 0px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
